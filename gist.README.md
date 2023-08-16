@@ -2,6 +2,17 @@
 
 Regular expressions, often abbreviated as regex, are a cornerstone in text processing, offering a robust method to match, extract, and manipulate strings. Today, we'll dive deep into a specific regex pattern tailored for validating North American phone numbers.
 
+## Table of Contents
+
+- [Anchors](#anchors)
+- [Quantifiers](#quantifiers)
+- [Grouping Constructs](#grouping-constructs)
+- [Bracket Expressions](#bracket-expressions)
+- [Character Classes](#character-classes)
+- [The OR Operator](#the-or-operator)
+- [Flags](#flags)
+- [Character Escapes](#character-escapes)
+
 ## Summary
 
 Regular Expressions, commonly known as regex or regexp, are a powerful tool for text processing. Their roots trace back to formal language theory and mathematical notation from the 1950s.
@@ -55,18 +66,7 @@ The regex `^#?([a-f0-9]{6}|[a-f0-9]{3})$` can be read as:
    - Three characters that are digits or lowercase letters a-f (`[a-f0-9]{3}`).
 4. End of the string (`$`).
 
-This pattern effectively matches valid 3-digit or 6-digit hex color values, with or without a preceding hash character.
-
-## Table of Contents
-
-- [Anchors](#anchors)
-- [Quantifiers](#quantifiers)
-- [Grouping Constructs](#grouping-constructs)
-- [Bracket Expressions](#bracket-expressions)
-- [Character Classes](#character-classes)
-- [The OR Operator](#the-or-operator)
-- [Flags](#flags)
-- [Character Escapes](#character-escapes)
+This pattern effectively matches valid 3-digit or 6-digit hex color values, with or without a preceding hash character
 
 
 Other components are, to mention a few:
